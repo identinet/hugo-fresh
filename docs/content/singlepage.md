@@ -6,11 +6,15 @@ include_footer: false
 ---
 
 ## Creating a single page
-Single pages displays a single unit of information and are more or less independent from the landing page above.
 
-You can create single pages in the `content` directory (even sub-dirs are possible).
+Single pages displays a single unit of information and are more or less
+independent from the landing page above.
 
-If you'd like to have the footer displayed on your single page include `include_footer: true` in your front matter.
+You can create single pages in the `content` directory (even sub-dirs are
+possible).
+
+If you'd like to have the footer displayed on your single page include
+`include_footer: true` in your front matter.
 
 <details>
 <summary>Code</summary>

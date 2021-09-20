@@ -6,9 +6,12 @@ include_footer: false
 ---
 
 ## Customize the landing page
-There's a wide variety of customizations that you can make to your Hugo Fresh landing page by modifying the `config.yaml` file that you downloaded.
+
+There's a wide variety of customizations that you can make to your Hugo Fresh
+landing page by modifying the `config.yaml` file that you downloaded.
 
 ### navbarlogo
+
 Define the logo of the navigationbar in the upper left corner.
 
 <details>
@@ -23,6 +26,7 @@ navbarlogo:
 </details>
 
 ### font
+
 Set the font of the site.
 
 <details>
@@ -37,6 +41,7 @@ font:
 </details>
 
 ### hero
+
 The "main" page which you see when you open the website.
 
 <details>
@@ -61,8 +66,9 @@ hero:
 </details>
 
 ### navbar
-The navigation bar which is at the top of the site.
-For a dropdown, add a "sublinks" list.
+
+The navigation bar which is at the top of the site. For a dropdown, add a
+"sublinks" list.
 
 <details>
 <summary>Code</summary>
@@ -91,7 +97,9 @@ navbar:
 </details>
 
 ### sidebar
-The sidebar is an optional parameter where you can place even more navigation items.
+
+The sidebar is an optional parameter where you can place even more navigation
+items.
 
 <details>
 <summary>Code</summary>
@@ -136,7 +144,9 @@ sidebar:
 </details>
 
 ### section1
-Describes the second "page" which you will see when you scroll down. Currently it will have **always** three `titles`.
+
+Describes the second "page" which you will see when you scroll down. Currently
+it will have **always** three `titles`.
 
 <details>
 <summary>Code</summary>
@@ -166,6 +176,7 @@ section1:
 </details>
 
 ### section2
+
 Shows information why someone should use this product.
 
 <details>
@@ -191,6 +202,7 @@ section2:
 </details>
 
 ### section3
+
 Display a bright image of your product.
 
 <details>
@@ -208,6 +220,7 @@ section3:
 </details>
 
 ### section4
+
 What clients says about us.
 
 <details>
@@ -235,6 +248,7 @@ section4:
 </details>
 
 ### section5
+
 Write us.
 
 <details>
@@ -247,6 +261,7 @@ section5: true # or false to hide it
 </details>
 
 ### footer
+
 The footer of the site.
 
 <details>
