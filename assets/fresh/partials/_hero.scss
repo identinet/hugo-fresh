@@ -2,26 +2,30 @@
 Hero styles
 ========================================================================== */
 
+@import url("https://rsms.me/inter/inter.css");
+
 .hero-body {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  .title,
+  .subtitle {
+    font-family: "Inter var", Inter, Gordita, Roboto, Oxygen, Ubuntu, Cantarell,
+      "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .title {
+    &.is-bold {
+      font-weight: 700;
     }
-    .title {
-        &.is-bold {
-            font-weight: 700;
-        }
+  }
+  .subtitle {
+    &.is-muted {
+      color: $muted-grey;
     }
-    .subtitle {
-        &.is-muted {
-            color: $muted-grey;
-        }
-    }
+  }
 }
 
 .hero-foot {
-    img.partner-logo {
-        height: 70px;
-    }
+  img.partner-logo {
+    height: 70px;
+  }
 }
