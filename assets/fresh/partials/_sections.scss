@@ -18,9 +18,6 @@ Section Styles
   }
   .title,
   .subtitle {
-    font-family: "Open Sans", sans-serif;
-  }
-  .subtitle {
     &.is-muted {
       color: $muted-grey;
     }
@@ -32,9 +29,6 @@ Section Styles
   max-width: 500px;
   margin: 0 auto;
   .title,
-  .subtitle {
-    font-family: "Open Sans", sans-serif;
-  }
   .subtitle {
     &.is-muted {
       color: $muted-grey;
