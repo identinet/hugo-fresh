@@ -51,6 +51,13 @@
       {{- end }}
 
       <div class="navbar-end">
+        {{- if $.Site.IsMultiLingual }}
+            {{ range $.Site.Home.AllTranslations }}
+            <a href="{{ .Permalink }}" class="navbar-item"  title="{{ .Language.LanguageName }}">
+                <img class="{{if ne $.Site.Language.Lang .Language.Lang }}grayscale{{end}}" alt="{{ .Language.LanguageName }}" width="24" src="/images/flag-icons/{{ .Site.Params.flag }}.svg">
+                </a>
+            {{ end }}
+        {{- end }}
         {{- range $navbar }}
         {{- if .sublinks }}
         <div class="navbar-item has-dropdown is-hoverable">

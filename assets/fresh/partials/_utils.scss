@@ -177,3 +177,13 @@ body #backtotop a {
   /* Firefox 18- */
   color: $placeholder;
 }
+
+img.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+img.grayscale:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
